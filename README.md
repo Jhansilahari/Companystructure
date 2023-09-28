@@ -2,6 +2,10 @@
 For this project you are going to practice using inheritance, interfaces and abstract classes to relate objects
 to one another. The following is a description of each class and its behavior. It is up to you to decide which
 classes should extend, implement or abstract which pieces to maximize your code sharing.
+
+
+
+
 1.Employee Employee has two parameters name and base salary getBaseSalary() returns the employee's base salary getName() returns the employee's name getEmployeeID() returns a unique employee ID starting from 1 for the first employeet then 2 and so on. getManager() returns a reference to the employee's manager. equals(Employee other) returns true if the two employee’s ID are the same, false otherwise toString() returns a string representation of the employee as "ID Name". employeeStatus() provides a string representation of the employee's status.
 
 TechnicalEmployee has default base salary of 75000. employeeStatus() returns a string representation that includes the employee's ID and the number of successful check-ins. It is subclass of employee
